@@ -17,3 +17,5 @@ jobs:
         echo test, and deploy your project.
     - name: Compile java code
       run: javac Test.java
+    - name: Run java code
+      run: java Test
